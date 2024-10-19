@@ -143,6 +143,31 @@ form {
     font-weight: 500;
 }
 
+#addMultipleRoom input[type="number"] {
+    height: 44px;
+    width: 75%;
+    border-radius: 10px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #BBBBBB;
+    padding-left: 18px;
+    font-family: 'Prompt', sans-serif; 
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input[type="number"] {
+    height: 44px;
+    border-radius: 10px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #BBBBBB;
+    padding-left: 18px;
+    font-family: 'Prompt', sans-serif; 
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
 label {
     font-size: 18px;
     font-weight: 500;
@@ -268,4 +293,9 @@ button {
     font-weight: 500;
     line-height: 36.29px;
     text-align: center;
+}
+
+.container .input-form {
+    display: flex;
+    flex-direction: row;
 }
